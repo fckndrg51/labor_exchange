@@ -1,3 +1,3 @@
-from .job import Job  # noqa
-from .response import Response  # noqa
-from .user import User  # noqa
+from models.job import Job  # noqa
+from models.response import Response  # noqa
+from models.user import User  # noqa

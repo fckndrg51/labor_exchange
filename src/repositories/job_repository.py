@@ -13,7 +13,7 @@ from exception.repository_exception import NotFoundError
 
 
 
-class UserRepository(IRepositoryAsync):
+class JobRepository(IRepositoryAsync):
     def __init__(self, session: Callable[..., AbstractContextManager[Session]]):
         self.session = session
 
